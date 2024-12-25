@@ -1,0 +1,80 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    font-size: 1.2em;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Paper section styling */
+.paper-section {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.paper-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.paper-year {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #007BFF;
+    font-size: 1.3em;
+}
+
+.paper-item {
+    margin-top: 10px;
+    line-height: 1.8;
+}
+
+.paper-item strong {
+    font-weight: bold;
+}
+
+.paper-item a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.paper-item a:hover {
+    text-decoration: underline;
+}
